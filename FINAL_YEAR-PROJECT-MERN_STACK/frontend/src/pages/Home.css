@@ -1,0 +1,21 @@
+/* body {
+  background-image: url("../images/b13.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.homecontain {
+  margin-left: 40px;
+}
+
+.home {
+  margin: 4px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}

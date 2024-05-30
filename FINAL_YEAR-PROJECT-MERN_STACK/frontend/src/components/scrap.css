@@ -1,0 +1,60 @@
+.scrapcontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1350px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.scraprecord {
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+.scraph2 {
+  color: hsl(240, 100%, 10%);
+  width: 500px;
+  height: 45px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+}
+.scraptab {
+  font-size: 15px;
+  padding: 5px;
+  width: 1150px;
+  border-radius: 15px;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+}
+.scraphead {
+  font-size: 15px;
+  background-color: hsl(240, 100%, 10%);
+}
+.scraptr {
+  height: 38px;
+  color: hsl(240, 100%, 10%);
+  padding: 2px;
+}
+.scrapth {
+  padding: 7px;
+  text-align: center;
+  height: 45px;
+  color: white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+.scrapbody {
+  font-size: 15px;
+}
+.scraptd {
+  font-size: 15px;
+  padding: 4px;
+  margin: 5px;
+  border-left: 1px solid hsl(240, 100%, 10%, 0.3);
+  border-top: 1px solid hsl(240, 100%, 10%, 0.3);
+}

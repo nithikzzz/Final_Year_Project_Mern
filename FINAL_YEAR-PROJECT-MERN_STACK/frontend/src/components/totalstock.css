@@ -1,0 +1,63 @@
+.stockcontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1350px;
+}
+.stockrecord {
+  margin: 5px;
+  padding: 5px;
+  margin-top: 60px;
+  height: auto;
+}
+.stockh2 {
+  color: hsl(240, 100%, 10%);
+  width: 500px;
+  height: 45px;
+  /* border: 2px black solid; */
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+  font-weight: bolder;
+}
+.stocktab {
+  font-size: 15px;
+  padding: 5px;
+  width: 900px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+}
+.stockhead {
+  font-size: 15px;
+  background-color: hsl(240, 100%, 10%);
+}
+.stockbody {
+  font-size: 15px;
+}
+.stocktr {
+  height: 38px;
+  color: hsl(240, 100%, 10%);
+  padding: 2px;
+}
+.stockth {
+  padding: 7px;
+  text-align: center;
+  height: 45px;
+  color: white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+.stocktd {
+  font-size: 15px;
+  padding: 4px;
+  margin: 5px;
+  text-align: center;
+  border-left: 1px solid hsl(240, 100%, 10%, 0.3);
+  border-top: 1px solid hsl(240, 100%, 10%, 0.3);
+}

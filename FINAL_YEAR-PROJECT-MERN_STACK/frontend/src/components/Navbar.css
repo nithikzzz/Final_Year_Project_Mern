@@ -1,0 +1,23 @@
+/* .link {
+  direction: rtl;
+} */
+.bttn {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  margin: 10px;
+  background-color: hsl(240, 100%, 10%);
+  border: 1px black solid;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 0px gray;
+  cursor: pointer;
+}
+.subtitle {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.ntext {
+  color: hsl(240, 100%, 10%);
+  text-decoration: none;
+  font-weight: 600;
+}

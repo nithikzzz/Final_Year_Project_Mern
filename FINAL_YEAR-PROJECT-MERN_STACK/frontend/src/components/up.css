@@ -1,0 +1,73 @@
+.updateWork {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.updatebox {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 2em;
+  height: 500px;
+  width: 495px;
+  border-radius: 20px;
+  margin-top: 58px;
+  padding: 40px;
+  left: 400px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.upField {
+  background: transparent;
+  width: 220px;
+  height: 35px;
+  padding: 7px;
+  padding: 10px;
+  margin: 7px;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0);
+  color: hsl(240, 100%, 10%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.upField:focus,
+.upField:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.update {
+  width: 170px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 7px;
+  font-size: 1rem;
+  background-color: hsl(240, 100%, 10%);
+}
+.updateh2 {
+  color: hsl(240, 100%, 10%);
+  font-size: 20px;
+  font-weight: bold;
+}

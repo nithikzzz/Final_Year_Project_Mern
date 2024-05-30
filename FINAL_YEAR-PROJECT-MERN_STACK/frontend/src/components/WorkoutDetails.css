@@ -1,0 +1,81 @@
+body {
+  overflow-x: hidden;
+}
+/* 
+.bg {
+  background-color: white;
+} */
+
+.cardstyle {
+  width: 255px;
+  height: 290px;
+  /* border: 1px grey solid; */
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 6px 6px 0px 0px rgba(97, 95, 95, 0.3);
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.title {
+  margin-left: 40px;
+  height: 35px;
+  padding: 3px;
+  margin-top: 3px;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  font-weight: bold;
+  /* border: 2px black solid; */
+  box-shadow: 8px 8px 0px 0px rgba(99, 97, 97, 0.3);
+}
+.imgcontain {
+  max-width: 1800px;
+  max-height: 180px;
+}
+.image {
+  width: 160px;
+  height: 160px;
+  /* border: 2px black solid; */
+  margin-left: 45px;
+  border-radius: 30px;
+  /* justify-content: center; */
+}
+.text {
+  font-size: medium;
+  gap: 4px;
+  color: hsl(240, 100%, 10%);
+}
+.text p {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .cardstyle:hover .cardIcon {
+  display: flex;
+} */
+
+.cardIcon {
+  /* display: none; */
+  justify-content: center;
+  position: relative;
+  left: 30px;
+  bottom: 14px;
+}
+.boxbg {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.text {
+  text-align: start;
+}
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  padding: 5px;
+}
+.edit {
+  text-decoration: none;
+  color: gray;
+}

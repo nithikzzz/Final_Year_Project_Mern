@@ -1,0 +1,161 @@
+body {
+  /* background: linear-gradient(45deg, #fc466b, #3f5efb); */
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: hsl(240, 100%, 10%);
+}
+.create {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 1em;
+  width: 500px;
+  height: 460px;
+  top: 20px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.create p {
+  font-weight: 500;
+  color: hsl(240, 100%, 10%);
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.create a {
+  text-decoration: none;
+  color: hsl(240, 100%, 10%);
+  font-size: 12px;
+}
+
+.create a:hover {
+  text-shadow: 2px 2px 6px #00000040;
+}
+
+.create a:active {
+  text-shadow: none;
+}
+
+.create .element {
+  background: transparent;
+  height: 43px;
+  padding: 7px;
+  margin: 7px;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0);
+  color: hsl(240, 100%, 10%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.create .element:focus,
+.create .element:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.create .addproject {
+  background: hsl(240, 100%, 10%);
+  width: 150px;
+  height: 40px;
+
+  margin-bottom: 1em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.create .addproject:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.create .addproject:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.create:hover {
+  margin: 4px;
+}
+
+::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: hsl(240, 100%, 10%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+  width: 400px;
+}
+.model {
+  width: 400px;
+}
+.amount {
+  width: 195px;
+}
+.date {
+  width: 195px;
+}
+.place {
+  width: 195px;
+}
+.count {
+  width: 195px;
+}
+.invoice {
+  width: 190px;
+}
+
+.upload {
+  background: transparent;
+  height: 45px;
+  padding: 7px;
+  margin-bottom: 14px;
+  border: none;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  color: hsl(240, 100%, 10%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 190px;
+}
+.image {
+  width: 190px;
+}

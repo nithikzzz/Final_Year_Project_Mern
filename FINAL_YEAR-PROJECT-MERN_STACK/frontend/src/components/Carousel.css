@@ -1,0 +1,15 @@
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.carousel-item img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78%;
+  width: 60%;
+  margin-top: 65px;
+}

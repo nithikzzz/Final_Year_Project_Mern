@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain {
+  width: 1000px;
+  height: 500px;
+  margin-top: 85px;
+  padding: 5px;
+  box-shadow: 10px 10px 10px 10px rgb(128, 128, 128, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.abox {
+  width: 420px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px rgb(128, 128, 128, 0.2);
+}
+
+.aimg {
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+}
+.abox1 {
+  margin: 20px;
+  padding: 10px;
+  padding-top: 40px;
+  width: 500px;
+  height: 420px;
+}
+.atext {
+  padding: 5px;
+  color: hsl(240, 100%, 10%);
+}
+.h2 {
+  color: hsl(240, 100%, 10%);
+  text-shadow: 2px 2px grey;
+}

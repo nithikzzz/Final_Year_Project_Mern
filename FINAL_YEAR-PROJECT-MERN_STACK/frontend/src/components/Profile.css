@@ -1,0 +1,72 @@
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-top: 40px;
+}
+.ph2 {
+  margin-top: 0;
+  color: hsl(240, 100%, 10%);
+  width: 450px;
+}
+.box {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 2em;
+  height: 445px;
+  width: 495px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.info {
+  background: transparent;
+  width: 230px;
+  height: 42px;
+  padding: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: hsl(240, 100%, 10%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.box .save {
+  background: transparent;
+  width: 170px;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: hsl(240, 100%, 10%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 7px;
+  font-size: 1rem;
+}
+.box .save:hover {
+  cursor: pointer;
+}
+
+.box .save:active {
+  background: rgba(255, 255, 255, 0.2);
+}
