@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Viewer</title>
+</head>
+<body>
+  <h1>Image Viewer</h1>
+  <div id="imageContainer"></div>
+
+  <script>
+    // Fetch images from your server
+    fetch('http://localhost:4000/image/img')
+      .then(response => response.json())
+      .then(images => {
+        const imageContainer = document.getElementById('imageContainer');
+
+        // Display each image
+        images.forEach(image => {
+          const imgElement = document.createElement('img');
+          imgElement.src = `data:image/jpeg;base64,${image.image}`;
+          imgElement.alt = 'Uploaded Image';
+          imgElement.style.maxWidth = '100%';
+          imgElement.style.marginBottom = '20px';
+          imageContainer.appendChild(imgElement);
+        });
+      })
+      .catch(error => console.error('Error fetching images:', error));
+  </script>
+</body>
+</html>
